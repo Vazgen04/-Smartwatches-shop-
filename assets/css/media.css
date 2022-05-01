@@ -1,0 +1,343 @@
+@media (max-width: 1550px) {
+    .container{
+        width: 1300px;
+    }
+}
+
+
+
+
+@media (max-width: 1450px) {
+    .container{
+        width: 1200px;
+    }
+
+    .reports-card{
+        padding: 30px 15px;
+    }
+}
+
+
+
+
+
+@media (max-width: 1350px) {
+    .container{
+        width: 1100px;
+    }
+
+    .video-box{
+        width: 550px;
+        height: 350px;
+    }
+
+    .reports-inner{
+        flex-direction: column;
+    }
+
+    .reports{
+        padding: 70px;
+    }
+    .reports-card:not(:first-child){
+        margin-top: 100px;
+        padding: 30px;
+    }
+}
+
+
+
+
+
+@media (max-width: 1250px) {
+    .container{
+        width: 1000px;
+    }
+
+    .features-inner{
+        flex-direction: column;
+    }
+    .features-card-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .features-card:not(:first-child){
+        margin: 0%;
+    }
+
+    .features-banner{
+        margin: 100px 0px 100px 0px;
+    }
+
+    .video{
+        padding: 50px 0px;
+    }
+
+    .video-inner{
+        flex-direction: column;
+    }
+
+    .video-box{
+        margin-bottom: 100px;
+    }
+}
+
+
+
+
+
+@media (max-width: 1150px) {
+    .container{
+        width: 900px;
+    }
+
+    .intro{
+        height: auto;
+        padding: 100px 0px;
+    }
+
+    .intro-inner{
+        flex-direction: column;
+    }
+
+    .intro-banner{
+        width: 50%;
+        margin-top: 50px;
+    }
+
+    .header{
+        position: relative;
+        background: #000;
+    }
+
+    .title{
+        text-align: center;
+    }
+
+    .text{
+        text-align: center;
+    }
+
+    .button-box{
+        justify-content: center;
+    }
+
+    .product-card-box{
+        flex-direction: column;
+    }
+
+    .product-card:not(:first-child){
+        margin-top: 50px;
+    }
+}
+
+
+
+
+@media (max-width: 1050px) {
+    .container{
+        width: 800px;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .social-list:not(:first-child , :last-child){
+        display: none;
+    }
+}
+
+
+
+
+
+@media (max-width: 950px) {
+    .container{
+        width: 700px;
+    }
+
+    .intro{
+        padding: 50px 0px 150px 0px;
+    }
+
+    .card-title{
+        font-size: 15px;
+    }
+    .card-title-bottom{
+        font-size: 9px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 850px) {
+    .container{
+        width: 600px;
+    }
+
+    .features-card-box{
+        flex-direction: column;
+    }
+
+    .card-text{
+        font-size: 14px;
+    }
+
+    .title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .text{
+        font-size: 13px;
+    }
+
+    .intro-banner{
+        width: 70%;
+    }
+
+    .section-title{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .section-text{
+        font-size: 13px;
+    }
+
+    .features-banner{
+        width: 100%;
+    }
+
+    .video-box{
+        width: 500px;
+        height: 300px;
+    }
+}
+
+
+
+
+@media (max-width: 750px) {
+    .container{
+        width: 500px;
+    }
+    
+    .card-text{
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+@media (max-width: 650px) {
+    .container{
+        width: 300px;
+    }
+    
+    .title{
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .text{
+        font-size: 12px;
+    }
+
+    .button{
+        font-size: 10px;
+    }
+    .intro-banner{
+        width: 100%;
+    }
+
+    .section-text{
+        font-size: 10px;
+    }
+
+    .features-banner{
+        width: 200%;
+    }
+
+    .product-card{
+        padding: 0%;
+    }
+
+    .product-image{
+        width: 100%;
+    }
+
+    .video-box{
+        width: 100%;
+    }
+
+    .social-list:last-child{
+        display: none;
+    }
+
+    .social-list{
+        text-align: center;
+        margin: 0% auto;
+    }
+
+    .social-media-item{
+        justify-content: space-between;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 550px) {
+    .container{
+        width: 300px;
+    }
+    
+    .reports-card{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .reporter , .reporter-surname{
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+}
+
+
+
+
+@media (max-width: 450px) {
+    .reports{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-height:800px) {
+    .header{
+        position: relative;
+        background: #000;
+    }
+}
